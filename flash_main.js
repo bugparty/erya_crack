@@ -128,6 +128,7 @@ function writeFlash(_xiaoL,_gongL,_defaultPlay,
 		+'&&isLoadPIPanSWF='+isLoadPIPanSWF+'&&loadPIPanSWFURL='+loadPIPanSWFURL
 		+'&&loadTimeSecond='+loadTimeSecond
 		;
+	console.log("FlashVars is "+ FlashVars);
 
 	/**** 注入插件 ****/
 	if (AC_FL_RunContent == 0) {
