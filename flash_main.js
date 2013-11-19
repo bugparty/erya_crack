@@ -110,7 +110,7 @@ function writeFlash(_xiaoL,_gongL,_defaultPlay,
 	startTime = _startTime;
 	isSend = _isSend;
 	sendURL = _sendURL;
-	canDrag = _canDrag;
+	canDrag = 1;  //Forse to Drag
 	zuoyeNum= _zuoyeNum;
 	zuoyeURL = _zuoyeURL;
 	/**** 组合参数 ****/
