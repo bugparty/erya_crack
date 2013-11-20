@@ -23,17 +23,11 @@
       -
       - [1]: http://developer.chrome.com/extensions/contentSecurityPolicy.html
      -->
-    <script language="javascript">alert("hello");</script>
+    <script language="javascript">
+	</script>
   </head>
   <body>
-	<script language="javascript" >
-	var winBackgroundPage = chrome.extension.getBackgroundPage();
-	console.log("popup.html");
-	if(winBackgroundPage)
-		document.write("<h2>Clicks:" + winBackgroundPage.Clicks()+"</h2>");
-	else 
-		document.write("<h2>Error</h2>");
-
+	<script src="popup2.js" language="javascript"  >
 	</script>
   
   </body>

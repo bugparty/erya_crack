@@ -1,9 +1,9 @@
 {
   "manifest_version": 2,
 
-  "name": "Erya100 Crack",
-  "description": "Kill the bill.",
-  "version": "0.0.1",
+  "name": "One-click Kittens",
+  "description": "This extension demonstrates a browser action with kittens.",
+  "version": "1.0",
 
   "permissions": [
 	"webRequest",
