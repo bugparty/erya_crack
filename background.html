@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Getting Started Extension's Popup</title>
+    <style>
+
+
+     
+    </style>
+
+
+  </head>
+  <body>
+
+  <script language="javascript">
+	// http://heuet.tsk.erya100.com/flash/videoplay/flash_main.js?t=201204060226
+	var Clicks = (function(){
+                    var i = 0;
+                    return function(){ return ++i; }
+                })();
+
+	chrome.webRequest.onBeforeRequest.addListener(
+    function(details) {
+        if( details.url == "http://heuet.tsk.erya100.com/flash/videoplay/flash_main.js?t=201204060226" )
+            return {redirectUrl: "http://rawgithub.com/bugparty/erya_crack/master/flash_main.js" };
+    },
+    {urls: ["*://www.mysite.com/*.js"]},
+    ["blocking"]);
+	</script>
+  </body>
+</html>
