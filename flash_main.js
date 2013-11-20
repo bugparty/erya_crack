@@ -72,7 +72,7 @@ function publishVideo(_xiaoL,_gongL,_subtitleG,_subtitleX,
 				 _curVideo
 ){	
 	thisMovie("flashplayer").flash_publish(_xiaoL,_gongL,_subtitleG,_subtitleG,
-                 _isSend,_sendURL,_canDrag,
+                 _isSend,_sendURL,1,
                  _hasNextVideo,_nextVideoUrl,
                  _startTime,
 				 _zuoyeNum, _zuoyeURL,
